@@ -1,0 +1,12 @@
+[package]
+name = "database_service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mysql = "22.2.0"
+dotenv = "0.15.0"
+argon2 = "0.4"
+rand_core = { version = "0.6", features = ["std"] }
